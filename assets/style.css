@@ -1,0 +1,16 @@
+/* Description: Primary Stylesheet for About The Weather : A Weather Dashboard */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+}
+
