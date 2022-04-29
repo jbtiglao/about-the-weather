@@ -111,7 +111,7 @@
   * [stackoverflow](https://stackoverflow.com/questions/10104634/how-to-convert-00b0-degree-sign-unicode-character)
   * [RapidTables](https://www.rapidtables.com/web/color/index.html) for the HTML/CSS color codes.
   * [How to Understand the UV Index](https://www.verywellhealth.com/know-your-uv-index-1069524)
-  * The amazing Natalie Merchant and 10,000 Maniacs whose song `About the Weather` inpired and whose album MTV Unplugged kept me company while developing this application. 
+  * The amazing Natalie Merchant and 10,000 Maniacs whose song [Like The Weather](https://www.youtube.com/watch?v=Ln_-8NTM64U) inpired and and whose album MTV Unplugged kept me company while I was developing this application. 
 
   ---
   ## Author
