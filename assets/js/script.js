@@ -1,22 +1,22 @@
+//Variables
 //API Key
 var apiKey = "f6672cc6e9cb17c1050849aae4579382";
 
-//Date
-var today = moment().format('L');
-
-//List of searched cities
+//Search history
 var searchHistoryList = [];
 
-// Get/display the searched city's current weather condition 
-// When the user enters a city name, the user is presented with the 
-// following Information: the current city, date, weather icon, temperature, humidity, wind speed, and UV index
+//Date - use moment.js
+var today = moment().format('L');
+
+// Enter a city name and display the city's current weather condition 
+// Search result includes the current city, date, weather icon, temperature, humidity, wind speed, and UV index
 function currentWeather(cityname) {
-    var queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${apiKey}`;
+    var queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityname}&units=imperial&appid=${apiKey}`;
 
     $.ajax({
         url: queryURL,
         method: "GET"
-    }).then(function (cityWeatherResponse) {
+    }).then(function(cityWeatherResponse) {
         console.log(cityWeatherResponse);
 
         $("#weatherContent").css("display", "block");
@@ -30,16 +30,17 @@ function currentWeather(cityname) {
                 ${cityWeatherResponse.name} ${today} <img src="${weatherIconURL}" alt="${cityWeatherResponse.weather[0].description}" />
             </h2>
             <p>Temperature: ${cityWeatherResponse.main.temp} °F</p>
-            <p>Humidity: ${cityWeatherResponse.main.humidity} \%</p>
             <p>Wind Speed: ${cityWeatherResponse.wind.speed} MPH</p>
+            <p>Humidity: ${cityWeatherResponse.main.humidity} \%</p>
+            
         `);
 
         $("#cityDetail").append(currentCity);
 
-        //Get/display the UV Index
+        //Display the UV Index
         var lat = cityWeatherResponse.coord.lat;
         var lon = cityWeatherResponse.coord.lon;
-        var uviQueryURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`;
+        var uviQueryURL = `https://api.openweathermap.org/data/2.5/uvi?lat=${lat}&lon=${lon}&appid=${apiKey}`
 
         $.ajax({
             url: uviQueryURL,
@@ -74,16 +75,16 @@ function currentWeather(cityname) {
     });
 }
 
-// Get/display the five-day weather forecast
-// Information includes the date, weather icon, temperature, humidity, and wind speed
+// Display the searched city's five-day weather forecast
+// Search result includes the date, weather icon, temperature, humidity, and wind speed
 function futureWeather(lat, lon) {
 
-    var futureURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=${current,minutely,hourly,alert}&appid=${apiKey}`;
-
+    var futureURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=imperial&exclude=current,minutely,hourly,alerts&appid=${apiKey}`;
+    
     $.ajax({
         url: futureURL,
         method: "GET"
-}).then(function (futureResponse) {
+}).then(function(futureResponse) {
     console.log(futureResponse);
     $("#fiveDay").empty();
 
@@ -92,6 +93,7 @@ function futureWeather(lat, lon) {
             date: futureResponse.daily[i].dt,
             icon: futureResponse.daily[i].weather[0].icon,
             temp: futureResponse.daily[i].temp.day,
+            wind: futureResponse.daily[i].wind.speed,
             humidity: futureResponse.daily[i].humidity
         };
 
@@ -105,6 +107,7 @@ function futureWeather(lat, lon) {
                     <h5>${currDate}</h5>
                     <p>${weatherIconURL}</p>
                     <p>Temp: ${cityInfo.temp} °F</p>
+                    <p>Wind: ${cityInfo.wind.speed} MPH</>
                     <p>Humidity: ${cityInfo.humidity}\%</p>
                 </div>
             </div>
@@ -136,7 +139,7 @@ $("#searchBtn").on("click", function(event) {
     console.log(searchHistoryList);
 });
 
-// When a city in the saved search history is clicked, display the current and 5-day weather forecast for that city
+// When a city in the search history is clicked, display the city's current weather and 5-day weather forecast 
 $(document).on("click", ".list-group-item", function() {
     var listCity = $(this).text();
     currentWeather(listCity);
