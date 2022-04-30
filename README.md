@@ -72,11 +72,13 @@
 - humidity; and
 - wind speed.
 
-5. When the user enters the name of a city and clicks on the search bar, the city name is saved in a column below the search bar. The search history list disappears when the page is refreshed.
+5. When the user enters the name of a city and clicks on the search bar, the city name is saved in a column below the search bar. 
 
 6. Clicking on a city name in the search history list will show the city's current weather condition and five-day forecast.
 
 7. The application uses the OpenWeather API to retrieve weather data. It also uses `localStorage` to store persistent data.
+
+8. When the application is opened or the page is refreshed, the last searched city and its current weather and five-day forecast will appear.
 
   ---
   ## License
