@@ -9,7 +9,8 @@
 /* Body */
 
 body {
-    background-color: rgb(135, 19, 131);
+    margin: 10px;
+    background-color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -20,6 +21,8 @@ h1 {
 }
 
 h2, h3, h4, h5 {
+    padding-top: 5px;
+    font-weight: bold;
     color: black;
 }
 
@@ -28,15 +31,30 @@ p {
 }
 
 /* Search Column */
+.form-control {
+    border: gray solid 2px;
+}
 .search-History li{
     background-color: yellow;
     color: violet;
 }
 
+.list-group li {
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(147, 144, 144);
+   
+}
+
+.btn {
+    margin-top: 15px;
+    width: 100%;
+}
 /* Current Weather Column */
 #weatherContent {
     display: none;
 }
+
 
 #cityDetail,
 #uvIndexColor,
@@ -45,8 +63,19 @@ li {
 }
 
 #searchResults {
+    background-color: gray;
     padding-top: 5px;
     height: 100vh;
+}
+
+#cityDetail {
+    background-color: white;
+    border: black solid 1px;
+}
+
+.card {
+    background-color: green;
+    border: black solid 1px;
 }
 
 /* 5-Day Forecast Columns */
