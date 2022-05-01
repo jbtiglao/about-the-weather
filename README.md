@@ -37,8 +37,8 @@
   Clone my GitHub repository.
 
   To open the application, on Visual Studio Code:
-  * Click File, select Open Folder from the drop-down list, and navigate to the cloned repository. Click on Open.
-  * On the upper left-hand side, click on the Explorer icon, then the repository's index.html file.  Click on the HTML document and choose Open in Default Browser (or the browser of your choice) to run the application.
+  * Click File, select Open Folder from the drop-down list, and navigate to the cloned repository. Click Open.
+  * On the upper left-hand side, click on the Explorer icon, then the repository's `index.html` file.  Click on the .HTML document and choose Open in Default Browser, or the browser of your choice, to open and run the application.
 
   Data from OpenWeather's Current Weather and One Call services are accessed through the creation of an API Key and free subscription to the said services on [openweathermap.org](https://openweathermap.org/).
 
