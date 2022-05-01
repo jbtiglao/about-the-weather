@@ -15,18 +15,34 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 200%;
     font-weight: bold;
     color: white;
 }
 
-h2, h3, h4, {
+h2 {
+    font-size: 200%;
+    padding-top: 5px;
+    font-weight: bolder;
+    color: black;
+}  
+
+h3 {
+    font-size: 150%;
+    padding-top: 5px;
+    font-weight: bolder;
+    color: black;
+}  
+
+h4, {
     padding-top: 5px;
     font-weight: bolder;
     color: black;
 }
 
 h5 {
+    font-size: 130%;
+    font-weight: bolder;
     color: white;
 }
 
@@ -41,6 +57,7 @@ h5 {
 }
 
 #searchHistory li {
+    font-size: 100%;
     margin-top: 10px;
     background-color: lightgray;
     text-align: center;
@@ -75,7 +92,7 @@ li {
 }
 
 
-/* 5-day weather forecast column */
+/* 5-day weather forecast columns */
 #fiveDay .card {
     background-color: #1d0cdc;
     border: 1px solid black;
