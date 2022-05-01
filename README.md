@@ -6,7 +6,7 @@
   ---
   ## Description
 
- This is a weather dashboard that retrieves weather data for cities. It shows the city's current weather condition and five-day forecast using OpenWeather API. It uses `localStorage` to store any persistent data. It runs in a browser and features dynamically updated HTML and CSS.
+ This is a weather dashboard that retrieves weather data for cities. It shows the searched city's current weather condition and five-day forecast using OpenWeather API. It uses `localStorage` to store any persistent data. It runs in a browser and features dynamically updated HTML and CSS.
 
   ### Interface
  This application has the following interface:
