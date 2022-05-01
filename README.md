@@ -59,13 +59,14 @@
   
   <img width="347" alt="image3_search-for-city" src="https://user-images.githubusercontent.com/94569484/166133368-b73d80d8-b871-4ef2-a836-7c2a3253b36d.png">
 
-   - The current weather condition for the city will appear on the currrent weather column.
+   - The city's current weather condition is displayed on the column containing the search result (current weather column).
   
   <img width="1060" alt="image4_current-city" src="https://user-images.githubusercontent.com/94569484/166133374-c5f6e3f8-192b-4db5-9de1-9c9ffef59f4d.png">
 
-   - The city's weather condition for the next five days are indicated below in five separate columns. 
+   - The city's weather condition for the next five days are displayed below the current weather column.
+   - 
 
-<img width="1064" alt="image5_5-day-forecast" src="https://user-images.githubusercontent.com/94569484/166133377-7d8e37af-a57e-4859-8357-0c557b29970c.png">
+<img width="1046" alt="image5_5-day-forecast" src="https://user-images.githubusercontent.com/94569484/166133929-f9d1fd2f-7778-427a-a2b7-7ca375ca3682.png">
 
 
    2. The column containing the city's current weather displays the following information: 
@@ -96,15 +97,14 @@
    <img width="452" alt="image10_uv-index-violet" src="https://user-images.githubusercontent.com/94569484/166133398-b36d77cd-7c96-40c3-bda9-56a3037f14cf.png">
 
 
-  4. When the user views the future weather condition for the cuurent city, the city's weather forecast for the next five days are displayed in five separate columns below the current weather condition. Each of the columns contains the following information:
+  4. When the user views the future weather condition for the current city, the city's weather forecast for the next five days are displayed in five separate columns below the current weather condition. Each of the columns contains the following information:
 - date;
 - weather icon;
 - temperature;
 - humidity; and
 - wind speed.
 
-<img width="1064" alt="image5_5-day-forecast" src="https://user-images.githubusercontent.com/94569484/166133410-81ad7200-fee4-41e5-b493-ef08461d0500.png">
-
+<img width="1061" alt="image16_forecast" src="https://user-images.githubusercontent.com/94569484/166133937-b34f8927-b17c-4950-875d-f5f198958d44.png">
 
 5. When the user enters the name of a city and clicks on the search bar, the city name is saved in a column below the search bar. 
 
