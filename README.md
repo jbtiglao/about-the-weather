@@ -10,7 +10,7 @@
 
   ### Interface
  This application has the following interface:
- ![interface]
+ 
  <img width="1426" alt="image1_interface" src="https://user-images.githubusercontent.com/94569484/166133288-381e4ad9-7cd3-4277-938f-89bbb9d100fa.png">
 
 
@@ -64,7 +64,7 @@
   <img width="1060" alt="image4_current-city" src="https://user-images.githubusercontent.com/94569484/166133374-c5f6e3f8-192b-4db5-9de1-9c9ffef59f4d.png">
 
    - The city's weather condition for the next five days are displayed below the current weather column.
-   - 
+
 
 <img width="1046" alt="image5_5-day-forecast" src="https://user-images.githubusercontent.com/94569484/166133929-f9d1fd2f-7778-427a-a2b7-7ca375ca3682.png">
 
@@ -106,27 +106,21 @@
 
 <img width="1061" alt="image16_forecast" src="https://user-images.githubusercontent.com/94569484/166133937-b34f8927-b17c-4950-875d-f5f198958d44.png">
 
-5. When the user enters the name of a city and clicks on the search bar, the city name is saved in a column below the search bar. 
+5. When the user enters the name of a city and clicks on the search bar, the city name is saved below the search bar. 
 
 <img width="338" alt="image11_search-history" src="https://user-images.githubusercontent.com/94569484/166133412-487616cb-9162-40dd-932f-901d61c0e6d1.png">
 
 
-6. Clicking on a city name in the search history list will show the city's current weather condition and five-day forecast.
+6. Clicking on a city name in the search history will show the city's current weather condition and five-day forecast.
 
 <img width="1429" alt="image12_click-on-city" src="https://user-images.githubusercontent.com/94569484/166133416-77bf7ceb-9fff-41df-9f22-e32ea6bdebd2.png">
 
 
-7. The application uses the OpenWeather API to retrieve weather data. It also uses `localStorage` to store persistent data.
-
-8. When the application is opened or the page is refreshed, the last searched city as well as its current weather and five-day forecast will appear.
+7. When the application is opened or the page is refreshed, the last searched city as well as its current weather and five-day forecast will appear.
 
 <img width="1422" alt="image13_last-searched-city" src="https://user-images.githubusercontent.com/94569484/166133429-129ba65e-5950-4fc7-8a61-594073554aca.png">
 
 <img width="1428" alt="image14_open-app" src="https://user-images.githubusercontent.com/94569484/166133434-8086c498-ecc9-4dc0-b456-b931c43c27d0.png">
-
-9. The application is responsive when viewed on different devices with various screen sizes.
-
-<img width="650" alt="image15_responsiveness" src="https://user-images.githubusercontent.com/94569484/166133451-daefb4a1-63a0-4d32-860f-ebdb69ffe601.png">
 
 
   ---
