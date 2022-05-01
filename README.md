@@ -13,7 +13,6 @@
  
  <img width="1426" alt="image1_interface" src="https://user-images.githubusercontent.com/94569484/166133288-381e4ad9-7cd3-4277-938f-89bbb9d100fa.png">
 
-
  ### GitHub links: 
 
  The deployed version can be viewed here:  https://jbtiglao.github.io/about-the-weather/.
@@ -155,7 +154,7 @@
   * [stackoverflow](https://stackoverflow.com/questions/10104634/how-to-convert-00b0-degree-sign-unicode-character)
   * [How to Understand the UV Index](https://www.verywellhealth.com/know-your-uv-index-1069524)
   * [ColorHexa](https://www.colorhexa.com/)
-  * The amazing Natalie Merchant and 10,000 Maniacs' whose song Like The Weather inspired the application's title and kept me company while developing this app.
+  * The amazing Natalie Merchant and the 10,000 Maniacs whose song Like The Weather inspired the application's title and kept me company while developing this app.
 
   ---
   ## Author
