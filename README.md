@@ -35,6 +35,8 @@
   ## Installation
   Clone my repository on GitHub.
 
+  To get api... create an account... 
+
   
   ---
   ## Usage
