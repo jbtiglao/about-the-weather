@@ -105,7 +105,7 @@
 
 <img width="1061" alt="image16_forecast" src="https://user-images.githubusercontent.com/94569484/166133937-b34f8927-b17c-4950-875d-f5f198958d44.png">
 
-5. When the user enters the name of a city and clicks on the search bar, the city name is saved below the search bar. 
+5. When the user enters the name of a city and clicks on the Search bar, the city name is saved on the Search History list below the search bar. 
 
 <img width="338" alt="image11_search-history" src="https://user-images.githubusercontent.com/94569484/166133412-487616cb-9162-40dd-932f-901d61c0e6d1.png">
 
