@@ -10,7 +10,9 @@
 
   ### Interface
  This application has the following interface:
- [Image](Image)
+ ![interface]
+ <img width="1426" alt="image1_interface" src="https://user-images.githubusercontent.com/94569484/166133288-381e4ad9-7cd3-4277-938f-89bbb9d100fa.png">
+
 
  ### GitHub links: 
 
@@ -33,13 +35,13 @@
   
   ---
   ## Installation
-  Clone this project's repository on my GitHub account.
+  Clone my GitHub repository.
 
   To open the application, on Visual Studio Code:
   * Click File, select Open Folder from the drop-down list, and navigate to the cloned repository. Click on Open.
   * On the upper left-hand side, click on the Explorer icon, then the repository's index.html file.  Click on the HTML document and choose Open in Default Browser (or the browser of your choice) to run the application.
 
-  Data from OpenWeather's Current Weather and One Call services are accessed through the creation of an API Key and free subscription to the said services on [OpenWeather](https://openweathermap.org/).
+  Data from OpenWeather's Current Weather and One Call services are accessed through the creation of an API Key and free subscription to the said services on [openweathermap.org](https://openweathermap.org/).
 
   ---
   ## Usage
@@ -50,9 +52,21 @@
    The application has the following features and functionalities:
 
    1. A search field and search button. 
+   
+<img width="348" alt="image2_searchfield-and-searchbutton" src="https://user-images.githubusercontent.com/94569484/166133365-8db13ee4-705c-49cd-a027-6cb65427d6f9.png">
+
    - To look for a city's weather condition, enter the city name in the search field and click on the Search button.
+  
+  <img width="347" alt="image3_search-for-city" src="https://user-images.githubusercontent.com/94569484/166133368-b73d80d8-b871-4ef2-a836-7c2a3253b36d.png">
+
    - The current weather condition for the city will appear on the currrent weather column.
+  
+  <img width="1060" alt="image4_current-city" src="https://user-images.githubusercontent.com/94569484/166133374-c5f6e3f8-192b-4db5-9de1-9c9ffef59f4d.png">
+
    - The city's weather condition for the next five days are indicated below in five separate columns. 
+
+<img width="1064" alt="image5_5-day-forecast" src="https://user-images.githubusercontent.com/94569484/166133377-7d8e37af-a57e-4859-8357-0c557b29970c.png">
+
 
    2. The column containing the city's current weather displays the following information: 
    - the current city; 
@@ -63,13 +77,25 @@
    - current wind speed; and 
    - current UV index.
 
+<img width="434" alt="image6_current-weather-info" src="https://user-images.githubusercontent.com/94569484/166133382-4c07dceb-69a3-4ec1-a985-81329f4a24bd.png">
+
+
    3. The UV index's color shows whether the condition is favorable or low (green), moderate (yellow), or severe (orange, yellow, or violet). 
    - A UV index of `2 or less` means the condition is *favorable or low* and will display a **green** color.
    - A UV index of `3 to 5` means the condition is *moderate* and will display a **yellow** color;
    - A UV index of `6 to 7` means the condition is *severe (high)* and will display an **orange** color.
    - A UV Index of `8 to 10` is *severe (very high)* and will display a **red** color.
    - A UV index of `11+` is *severe (extreme)* and will display a **violet** color.
+
+<img width="283" alt="image7_uv-index-chart" src="https://user-images.githubusercontent.com/94569484/166133387-8174525c-fce3-4aca-9cd0-eb888d10c592.png">
+
+   <img width="434" alt="image8_uv-index-red" src="https://user-images.githubusercontent.com/94569484/166133393-cb429df5-b1c3-41bd-954b-d014b97fb8b4.png">
    
+   <img width="397" alt="image9_uv-index-yellow" src="https://user-images.githubusercontent.com/94569484/166133395-c9b30021-7581-4b04-8277-70d2c1e0a965.png">
+   
+   <img width="452" alt="image10_uv-index-violet" src="https://user-images.githubusercontent.com/94569484/166133398-b36d77cd-7c96-40c3-bda9-56a3037f14cf.png">
+
+
   4. When the user views the future weather condition for the cuurent city, the city's weather forecast for the next five days are displayed in five separate columns below the current weather condition. Each of the columns contains the following information:
 - date;
 - weather icon;
@@ -77,13 +103,31 @@
 - humidity; and
 - wind speed.
 
+<img width="1064" alt="image5_5-day-forecast" src="https://user-images.githubusercontent.com/94569484/166133410-81ad7200-fee4-41e5-b493-ef08461d0500.png">
+
+
 5. When the user enters the name of a city and clicks on the search bar, the city name is saved in a column below the search bar. 
 
+<img width="338" alt="image11_search-history" src="https://user-images.githubusercontent.com/94569484/166133412-487616cb-9162-40dd-932f-901d61c0e6d1.png">
+
+
 6. Clicking on a city name in the search history list will show the city's current weather condition and five-day forecast.
+
+<img width="1429" alt="image12_click-on-city" src="https://user-images.githubusercontent.com/94569484/166133416-77bf7ceb-9fff-41df-9f22-e32ea6bdebd2.png">
+
 
 7. The application uses the OpenWeather API to retrieve weather data. It also uses `localStorage` to store persistent data.
 
 8. When the application is opened or the page is refreshed, the last searched city as well as its current weather and five-day forecast will appear.
+
+<img width="1422" alt="image13_last-searched-city" src="https://user-images.githubusercontent.com/94569484/166133429-129ba65e-5950-4fc7-8a61-594073554aca.png">
+
+<img width="1428" alt="image14_open-app" src="https://user-images.githubusercontent.com/94569484/166133434-8086c498-ecc9-4dc0-b456-b931c43c27d0.png">
+
+9. The application is responsive when viewed on different devices with various screen sizes.
+
+<img width="650" alt="image15_responsiveness" src="https://user-images.githubusercontent.com/94569484/166133451-daefb4a1-63a0-4d32-860f-ebdb69ffe601.png">
+
 
   ---
   ## License
