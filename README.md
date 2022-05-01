@@ -14,9 +14,9 @@
 
  ### GitHub links: 
 
- [The deployed version can be viewed here.]()
+ The deployed version can be viewed here:  https://jbtiglao.github.io/about-the-weather/.
 
- While the repository can be accessed [here](https://github.com/jbtiglao/about-the-weather)
+ While the repository can be accessed here: https://github.com/jbtiglao/about-the-weather. 
 
   ---
   ## Table of Contents
@@ -33,41 +33,44 @@
   
   ---
   ## Installation
-  Clone my repository on GitHub.
+  Clone this project's repository on my GitHub account.
 
-  To get api... create an account... 
+  To open the application, on Visual Studio Code:
+  * Click File, select Open Folder from the drop-down list, and navigate to the cloned repository. Click on Open.
+  * On the upper left-hand side, click on the Explorer icon, then the repository's index.html file.  Click on the HTML document and choose Open in Default Browser (or the browser of your choice) to run the application.
 
-  
+  Data from OpenWeather's Current Weather and One Call services are accessed through the creation of an API Key and free subscription to the said services on [OpenWeather](https://openweathermap.org/).
+
   ---
   ## Usage
-  For instructions on how to use the application, please refer to the deployed [site](), the description section above, as well as the features and functionalities below.
+  For instructions on how to use the application, please refer to the [deployed site](https://jbtiglao.github.io/about-the-weather/), as well as the following features and functionalities.
 
    ### Features and Functionalities
 
    The application has the following features and functionalities:
 
-   1. A search field (form) and search button. 
-   - To look for a city's weather condition, enter the city name in the search field (form) and click the search button.
-   - The current weather condition for the searched city will appear on the search result or currrent weather column.
-   - The future weather condition for the searched city will appear in five separate columns under the currrent weather condition.
+   1. A search field and search button. 
+   - To look for a city's weather condition, enter the city name in the search field and click on the Search button.
+   - The current weather condition for the city will appear on the currrent weather column.
+   - The city's weather condition for the next five days are indicated below in five separate columns. 
 
-   2. The search column or current weather column displays the following information: 
-   - the searched or current city; 
+   2. The column containing the city's current weather displays the following information: 
+   - the current city; 
    - date;
-   - weather icon that shows the current weather condition;
+   - weather icon that represents the current weather condition;
    - current temperature;
    - current humidity; 
    - current wind speed; and 
    - current UV index.
 
-   3. The UV index's color shows whether the condition is favorable (green), moderate (yellow), or severe (orange, yellow, or violet). 
-   - A UV index of 2 or less means the condition is favorable and will display a green color.
-   - A UV index of 3 to 5 means the condition is moderate and will display a yellow color;
-   - A UV index of 6 to 7 means the condition is severe (high) and will display an orange color.
-   - A UV Index of 8 to 10 is severe (very high) and will display a red color.
-   - A UV index of more than 10 is severe (extreme)and will display a purple color.
+   3. The UV index's color shows whether the condition is favorable or low (green), moderate (yellow), or severe (orange, yellow, or violet). 
+   - A UV index of `2 or less` means the condition is *favorable or low* and will display a **green** color.
+   - A UV index of `3 to 5` means the condition is *moderate* and will display a **yellow** color;
+   - A UV index of `6 to 7` means the condition is *severe (high)* and will display an **orange** color.
+   - A UV Index of `8 to 10` is *severe (very high)* and will display a **red** color.
+   - A UV index of `11+` is *severe (extreme)* and will display a **violet** color.
    
-  4. When the user views the future weather condition for the cuurent city, city's weather forecast for the next five days are displayed in columns below the current weather condition. Each of the columns contains the following information:
+  4. When the user views the future weather condition for the cuurent city, the city's weather forecast for the next five days are displayed in five separate columns below the current weather condition. Each of the columns contains the following information:
 - date;
 - weather icon;
 - temperature;
@@ -80,15 +83,14 @@
 
 7. The application uses the OpenWeather API to retrieve weather data. It also uses `localStorage` to store persistent data.
 
-8. When the application is opened or the page is refreshed, the last searched city and its current weather and five-day forecast will appear.
+8. When the application is opened or the page is refreshed, the last searched city as well as its current weather and five-day forecast will appear.
 
   ---
   ## License
   License used for this project - MIT
   
-  For more information on the above license and other license types, please see the following websites:  
+  For more information on the above license, please see the following website:  
   - [Open Source Initiative](https://opensource.org/licenses)
-  - [Choose a License](https://choosealicense.com/)
 
   ---
   ## Contributing
@@ -97,7 +99,7 @@
 
   ---
   ## Tests
-  The OpenWeather API, as well as the application's features and functionalities are tested using Chrome Dev Tools and running the application in a browser during development. 
+  The OpenWeather APIs, as well as the application's features and functionalities are tested using Chrome Dev Tools and running the application in a browser.
 
   ---
   ## Credits
@@ -115,8 +117,7 @@
   * [stackoverflow](https://stackoverflow.com/questions/10104634/how-to-convert-00b0-degree-sign-unicode-character)
   * [How to Understand the UV Index](https://www.verywellhealth.com/know-your-uv-index-1069524)
   * [ColorHexa](https://www.colorhexa.com/)
-  * [RapidTables](https://www.rapidtables.com/web/color/index.html) for the HTML/CSS color codes.
-  * The amazing Natalie Merchant and 10,000 Maniacs whose song Like the Weather kept me company while developing this application. 
+  * The amazing Natalie Merchant and 10,000 Maniacs' whose song Like The Weather inspired the application's title and kept me company while developing this app.
 
   ---
   ## Author
