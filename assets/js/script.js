@@ -51,17 +51,17 @@ function currentWeather(city) {
             futureWeather(lat, lon);
 
             // Display UV index color to indicate condition
-            // Current UV condition can be favorable (0-2, green), moderate (3-5, yellow), or severe (6-7 orange; 8-10, red; 11+, violet)
+            // Current condition can be favorable (0-2, green), moderate (3-5, yellow), or severe (6-7 orange; 8-10, red; 11+, violet)
             if (uvIndex >= 0 && uvIndex <= 2) {
-                $("#uvIndexColor").css("background-color", "#3EA72D").css("color", "white");
+                $("#uvIndexColor").css("background-color", "#3ea72d").css("color", "white");
             } else if (uvIndex >= 3 && uvIndex <= 5) {
-                $("#uvIndexColor").css("background-color", "#FFF300");
+                $("#uvIndexColor").css("background-color", "#fff300");
             } else if (uvIndex >= 6 && uvIndex <= 7) {
-                $("#uvIndexColor").css("background-color", "#F18B00");
+                $("#uvIndexColor").css("background-color", "#f18b00");
             } else if (uvIndex >= 8 && uvIndex <= 10) {
-                $("#uvIndexColor").css("background-color", "#E53210").css("color", "white");
+                $("#uvIndexColor").css("background-color", "#e53210").css("color", "white");
             } else {
-                $("#uvIndexColor").css("background-color", "#B567A4").css("color", "white");
+                $("#uvIndexColor").css("background-color", "#b567a4").css("color", "white");
             };
         });
     });
@@ -71,6 +71,7 @@ function currentWeather(city) {
 function futureWeather(lat, lon) {
 
     var futureWeatherURL = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=current,minutely,hourly,alerts&appid=${apiKey}`;
+    //`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=current,minutely,hourly,alerts&appid=${apiKey}`;
     $.ajax({
         url: futureWeatherURL,
         method: "GET"
@@ -82,6 +83,7 @@ function futureWeather(lat, lon) {
                 date: futureResponse.daily[i].dt,
                 icon: futureResponse.daily[i].weather[0].icon,
                 temp: futureResponse.daily[i].temp.day,
+                wind_speed: futureResponse.daily[i].wind_speed,
                 humidity: futureResponse.daily[i].humidity
             };
             var currentDate = moment.unix(cityInfo.date).format("MM/DD/YYYY");
@@ -96,6 +98,7 @@ function futureWeather(lat, lon) {
                 <h5>${currentDate}</h5>
                 <p>${weatherIconURL}</p>
                 <p>Temp: ${cityInfo.temp} °F</p>
+                <p> Wind: ${cityInfo.wind_speed} MPH</p>
                 <p>Humidity: ${cityInfo.humidity}\%</p>
             </div>
         </div>
