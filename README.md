@@ -127,6 +127,16 @@
 
 <img width="1428" alt="image14_open-app" src="https://user-images.githubusercontent.com/94569484/166133434-8086c498-ecc9-4dc0-b456-b931c43c27d0.png">
 
+8. The application is responsive when viewed and accessed using different devices with different-sized screens:
+
+<img width="703" alt="image19_responsiveness" src="https://user-images.githubusercontent.com/94569484/166177860-cd783a57-8b5b-43d6-9bfb-5e1bdaaa9fe2.png">
+
+![image20_iphone -responsivene](https://user-images.githubusercontent.com/94569484/166177872-d336b405-f6cd-4dcf-8782-3a509007bd0f.png)
+
+<img width="479" alt="image21_ipad-air-responsive" src="https://user-images.githubusercontent.com/94569484/166177893-6b71b19c-604e-463e-b4cf-9ae4a61e2139.png">
+
+<img width="443" alt="image22_ipad-mini-responsive" src="https://user-images.githubusercontent.com/94569484/166177902-a7f0a873-27ed-4aea-9cd4-eed9d268d4ad.png">
+
 
   ---
   ## License
