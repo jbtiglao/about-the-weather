@@ -81,19 +81,27 @@
 
 
    3. The UV index's color shows whether the condition is favorable or low (green), moderate (yellow), or severe (orange, yellow, or violet). 
-   - A UV index of `2 or less` means the condition is *favorable or low* and will display a **green** color.
-   - A UV index of `3 to 5` means the condition is *moderate* and will display a **yellow** color;
+   - A UV index of `2 or less` means the condition is *favorable or low* and will display a **green** color. 
+   - A UV index of `3 to 5` means the condition is *moderate* and will display a **yellow** color. 
    - A UV index of `6 to 7` means the condition is *severe (high)* and will display an **orange** color.
    - A UV Index of `8 to 10` is *severe (very high)* and will display a **red** color.
    - A UV index of `11+` is *severe (extreme)* and will display a **violet** color.
+   
+   *(Note: A UV Index of 2.1 to 2.99 will still be displayed as green since a UV index is considered to be in the yellow or moderate level only when it reaches 3. The same is true with the UV index of 5.1 to 5.99, which will be displayed as yellow or moderate since the orange level or high UVI starts at 6. The UVI of 7.1 to 7.99 will also be displayed as orange or high because very high or red UVI starts at 8.) 
 
-<img width="283" alt="image7_uv-index-chart" src="https://user-images.githubusercontent.com/94569484/166133387-8174525c-fce3-4aca-9cd0-eb888d10c592.png">
+  <img width="283" alt="image7_uv-index-chart" src="https://user-images.githubusercontent.com/94569484/166133387-8174525c-fce3-4aca-9cd0-eb888d10c592.png">
+
+  <img width="417" alt="image17_uv-index-green" src="https://user-images.githubusercontent.com/94569484/166175559-2b5c8123-15e6-48c2-bc9d-8e95be4a6666.png">
+
+  <img width="397" alt="image9_uv-index-yellow" src="https://user-images.githubusercontent.com/94569484/166133395-c9b30021-7581-4b04-8277-70d2c1e0a965.png">
+  
+  <img width="425" alt="image18_uv-index-orange" src="https://user-images.githubusercontent.com/94569484/166175668-7cc38563-3428-49ea-b34a-896acfcd3161.png">
+
 
    <img width="434" alt="image8_uv-index-red" src="https://user-images.githubusercontent.com/94569484/166133393-cb429df5-b1c3-41bd-954b-d014b97fb8b4.png">
    
-   <img width="397" alt="image9_uv-index-yellow" src="https://user-images.githubusercontent.com/94569484/166133395-c9b30021-7581-4b04-8277-70d2c1e0a965.png">
-   
-   <img width="452" alt="image10_uv-index-violet" src="https://user-images.githubusercontent.com/94569484/166133398-b36d77cd-7c96-40c3-bda9-56a3037f14cf.png">
+  <img width="385" alt="image10_uv-index-violet" src="https://user-images.githubusercontent.com/94569484/166175701-16d4608c-ea14-4ca0-a30f-8759482431f1.png">
+
 
 
   4. When the user views the future weather condition for the current city, the city's weather forecast for the next five days are displayed in five separate columns below the current weather condition. Each of the columns contains the following information:
@@ -153,6 +161,7 @@
   * [cdnjs](https://cdnjs.com/)
   * [stackoverflow](https://stackoverflow.com/questions/10104634/how-to-convert-00b0-degree-sign-unicode-character)
   * [How to Understand the UV Index](https://www.verywellhealth.com/know-your-uv-index-1069524)
+  * [Ultraviolet Index](https://en.wikipedia.org/wiki/Ultraviolet_index) 
   * [ColorHexa](https://www.colorhexa.com/)
   * The amazing Natalie Merchant and the 10,000 Maniacs whose song Like The Weather inspired the application's title and kept me company while developing this app.
 
