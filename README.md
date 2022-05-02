@@ -131,7 +131,7 @@
 
 <img width="703" alt="image19_responsiveness" src="https://user-images.githubusercontent.com/94569484/166177860-cd783a57-8b5b-43d6-9bfb-5e1bdaaa9fe2.png">
 
-![image20_iphone -responsivene](https://user-images.githubusercontent.com/94569484/166177872-d336b405-f6cd-4dcf-8782-3a509007bd0f.png)
+<img width="466" alt="image23_iphone-responsive" src="https://user-images.githubusercontent.com/94569484/166178068-1505319d-1fdc-449c-9287-7f79e2edfdbb.png">
 
 <img width="479" alt="image21_ipad-air-responsive" src="https://user-images.githubusercontent.com/94569484/166177893-6b71b19c-604e-463e-b4cf-9ae4a61e2139.png">
 
