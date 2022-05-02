@@ -52,11 +52,11 @@ function currentWeather(city) {
 
             // Display UV index color to indicate condition
             // Current condition can be favorable (0-2, green), moderate (3-5, yellow), or severe (6-7 orange; 8-10, red; 11+, violet)
-            if (uvIndex >= 0 && uvIndex <= 2) {
+            if (uvIndex >= 0 && uvIndex <= 2.99) {
                 $("#uvIndexColor").css("background-color", "#3ea72d").css("color", "white");
-            } else if (uvIndex >= 2 && uvIndex <= 5) {
+            } else if (uvIndex >= 3 && uvIndex <= 5) {
                 $("#uvIndexColor").css("background-color", "#fff300");
-            } else if (uvIndex >= 5 && uvIndex <= 7) {
+            } else if (uvIndex >= 5 && uvIndex <= 7.99) {
                 $("#uvIndexColor").css("background-color", "#f18b00");
             } else if (uvIndex >= 7 && uvIndex <= 10) {
                 $("#uvIndexColor").css("background-color", "#e53210").css("color", "white");
