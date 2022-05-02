@@ -105,17 +105,17 @@
 
 <img width="1061" alt="image16_forecast" src="https://user-images.githubusercontent.com/94569484/166133937-b34f8927-b17c-4950-875d-f5f198958d44.png">
 
-5. When the user enters the name of a city and clicks on the Search bar, the city name is saved on the Search History list below the search bar. 
+5. When the user enters the name of a city and clicks on the Search button, the city name is saved on the Search History list below the Search button. 
 
 <img width="338" alt="image11_search-history" src="https://user-images.githubusercontent.com/94569484/166133412-487616cb-9162-40dd-932f-901d61c0e6d1.png">
 
 
-6. Clicking on a city name in the search history will show the city's current weather condition and five-day forecast.
+6. Clicking on a city in the search history will show the city's current weather condition and five-day forecast.
 
 <img width="1429" alt="image12_click-on-city" src="https://user-images.githubusercontent.com/94569484/166133416-77bf7ceb-9fff-41df-9f22-e32ea6bdebd2.png">
 
 
-7. When the application is opened or the page is refreshed, the last searched city as well as its current weather and five-day forecast will appear.
+7. When the application is opened or the page is refreshed, the last searched city with its current weather and five-day forecast will appear.
 
 <img width="1422" alt="image13_last-searched-city" src="https://user-images.githubusercontent.com/94569484/166133429-129ba65e-5950-4fc7-8a61-594073554aca.png">
 
