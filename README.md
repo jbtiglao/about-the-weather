@@ -87,7 +87,7 @@
    - A UV Index of `8 to 10` is *severe (very high)* and will display a **red** color.
    - A UV index of `11+` is *severe (extreme)* and will display a **violet** color.
    
-   *(Note: A UV Index of 2.1 to 2.99 will still be displayed as green since a UV index is considered to be in the yellow or moderate level only when it reaches 3. The same is true with the UV index of 5.1 to 5.99, which will be displayed as yellow or moderate since the orange level or high UVI starts at 6. The UVI of 7.1 to 7.99 will also be displayed as orange or high because very high or red UVI starts at 8.) 
+   *(Note: A UV Index of 2.1 to 2.99 will still be displayed as green since a UV index is considered to be in the yellow or moderate level only when it reaches 3. The same is true with the UV index of 5.1 to 5.99, which will be displayed as yellow or moderate since the orange level or high UVI starts at 6. The UVI of 7.1 to 7.99 will also be displayed as orange or high because very high or red UVI starts at 8.)* 
 
   <img width="283" alt="image7_uv-index-chart" src="https://user-images.githubusercontent.com/94569484/166133387-8174525c-fce3-4aca-9cd0-eb888d10c592.png">
 
