@@ -91,17 +91,15 @@
 
   <img width="283" alt="image7_uv-index-chart" src="https://user-images.githubusercontent.com/94569484/166133387-8174525c-fce3-4aca-9cd0-eb888d10c592.png">
 
-  <img width="417" alt="image17_uv-index-green" src="https://user-images.githubusercontent.com/94569484/166175559-2b5c8123-15e6-48c2-bc9d-8e95be4a6666.png">
+  <img width="417" alt="image17_uv-index-green" src="https://user-images.githubusercontent.com/94569484/166176618-9e671210-7693-487c-9754-188098e76d8d.png">
 
-  <img width="397" alt="image9_uv-index-yellow" src="https://user-images.githubusercontent.com/94569484/166133395-c9b30021-7581-4b04-8277-70d2c1e0a965.png">
-  
-  <img width="425" alt="image18_uv-index-orange" src="https://user-images.githubusercontent.com/94569484/166175668-7cc38563-3428-49ea-b34a-896acfcd3161.png">
+<img width="397" alt="image9_uv-index-yellow" src="https://user-images.githubusercontent.com/94569484/166176628-add74d0e-e65e-4d8a-b91e-2609b9a7deac.png">
 
+<img width="434" alt="image8_uv-index-orange" src="https://user-images.githubusercontent.com/94569484/166176633-8bd4ad68-f654-4115-a292-4be12eb27581.png">
 
-   <img width="434" alt="image8_uv-index-red" src="https://user-images.githubusercontent.com/94569484/166133393-cb429df5-b1c3-41bd-954b-d014b97fb8b4.png">
-   
-  <img width="385" alt="image10_uv-index-violet" src="https://user-images.githubusercontent.com/94569484/166175701-16d4608c-ea14-4ca0-a30f-8759482431f1.png">
+<img width="412" alt="image19_uv-index-red" src="https://user-images.githubusercontent.com/94569484/166176650-5c3aa1b8-8584-4331-bfce-1209a21a8256.png">
 
+<img width="385" alt="image10_uv-index-violet" src="https://user-images.githubusercontent.com/94569484/166176660-8916cc0e-5203-4e83-8319-4f2cacfc0c20.png">
 
 
   4. When the user views the future weather condition for the current city, the city's weather forecast for the next five days are displayed in five separate columns below the current weather condition. Each of the columns contains the following information:
